@@ -1,0 +1,7 @@
+.about__container {
+  max-width: 485px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

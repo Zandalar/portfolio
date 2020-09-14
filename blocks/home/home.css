@@ -1,0 +1,12 @@
+@import url(./__container/home__container.css);
+@import url(./__description/home__description.css);
+@import url(./__description-item/home__description-item.css);
+@import url(./__name/home__name.css);
+@import url(./__name-item/home__name-item.css);
+@import url(./__photo/home__photo.css);
+
+.home {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0 0 105px;
+}

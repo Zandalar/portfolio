@@ -1,0 +1,6 @@
+.home__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 40px 0 30px;
+}

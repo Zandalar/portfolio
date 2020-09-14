@@ -1,0 +1,9 @@
+@import url(./__separator/language__separator.css);
+
+.language {
+  display: flex;
+  transform: translate(38%, 38%) rotate(270deg);
+  margin: 0;
+  padding: 0;
+  align-self: center;
+}
