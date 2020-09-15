@@ -5,6 +5,7 @@
 @import url(./__subtitle/footer__subtitle.css);
 @import url(./__text/footer__text.css);
 @import url(./__button/footer__button.css);
+@import url(./__icon/footer__icon.css);
 
 .footer {
   width: 100%;
