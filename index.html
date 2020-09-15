@@ -7,20 +7,20 @@
   <title>Portfolio</title>
 </head>
 <body>
-  <div class="page">
+  <div class="page" id="page-start">
     <div class="content">
       <header class="header">
         <nav class="menu">
           <ul class="header__menu">
-            <li class="header__menu-item"><button class="header__menu-button">Home</button></li>
-            <li class="header__menu-item"><button class="header__menu-button">About me</button></li>
-            <li class="header__menu-item"><button class="header__menu-button">Skills</button></li>
-            <li class="header__menu-item"><button class="header__menu-button">Portfolio</button></li>
-            <li class="header__menu-item"><button class="header__menu-button">Contacts</button></li>
+            <li class="header__menu-item"><a class="header__menu-button" href="#page-start">Home</a></li>
+            <li class="header__menu-item"><a class="header__menu-button" href="#section-about">About me</a></li>
+            <li class="header__menu-item"><a class="header__menu-button" href="#section-skills">Skills</a></li>
+            <li class="header__menu-item"><a class="header__menu-button" href="#section-portfolio">Portfolio</a></li>
+            <li class="header__menu-item"><a class="header__menu-button" href="#section-footer">Contacts</a></li>
           </ul>
         </nav>
       </header>
-      <section class="home">
+      <section class="home" id="section-home">
         <div class="home__container">
           <div class="home__name">
             <h1 class="home__name-item">Vitaliy</h1>
@@ -39,7 +39,7 @@
         <div class="home__photo"></div>
       </section>
 
-      <section class="about">
+      <section class="about" id="section-about">
         <div class="about__container">
           <h2 class="about__title">About me</h2>
           <p class="about__text">Hi, I'm Vitaliy – Web-developer from Moscow. I'm interested in web-development and everything connected with it.</p>
@@ -48,7 +48,7 @@
         </div>
       </section>
 
-      <section class="skills">
+      <section class="skills" id="section-skills">
         <h2 class="skills__title">Skills</h2>
         <p class="skills__text">I work in such programs as</p>
         <div class="skills__card-container">
@@ -110,7 +110,7 @@
         </div>
       </section>
 
-      <section class="portfolio">
+      <section class="portfolio" id="section-portfolio">
         <h2 class="portfolio__title">Portfolio</h2>
         <div class="portfolio__container">
           <div class="portfolio__card">
@@ -125,22 +125,35 @@
           </div>
         </div>
       </section>
-      <footer class="footer">
+      <footer class="footer" id="section-footer">
         <h2 class="footer__title">Contacts</h2>
         <p class="footer__subtitle">Want to know more or just chat? You are welcome!</p>
+        <button class="footer__button" id="message-button" type="button">Send message</button>
         <nav class="footer__menu">
           <ul class="footer__menu_table">
-            <li class="footer__menu-item"><a href="#" alt="#"><img src="./images/whatsapp.svg" alt="WhatsApp"></a></li>
-            <li class="footer__menu-item"><a href="#" alt="#"><img src="./images/facebook.svg" alt="WhatsApp"></a></li>
-            <li class="footer__menu-item"><a href="#" alt="#"><img src="./images/telegram.svg" alt="WhatsApp"></a></li>
-            <li class="footer__menu-item"><a href="#" alt="#"><img src="./images/instagram.svg" alt="WhatsApp"></a></li>
+            <li class="footer__menu-item"><a href="https://github.com/Zandalar" target="_blank"><img src="./images/github.svg" alt="GitHub"></a></li>
+            <li class="footer__menu-item"><a href="#"><img src="./images/facebook.svg" alt="Facebook"></a></li>
+            <li class="footer__menu-item"><a href="#"><img src="./images/gmail.svg" alt="Gmail"></a></li>
+            <li class="footer__menu-item"><a href="#"><img src="./images/instagram.svg" alt="Instagram"></a></li>
           </ul>
         </nav>
         <p class="footer__text">Like me on LinkedIn, Instagram, Behance, Dribble</p>
       </footer>
 
+      <div class="popup">
+        <div class="popup__container">
+          <form class="popup__form" novalidate>
+            <label for="popup__email">Please, write your e-mail</label>
+            <input class="popup__input" id="popup__email" type="email" placeholder="enter your e-mail" minlength="3">
+            <label for="popup__message">Please, write me your message</label>
+            <textarea class="popup__input" id="popup__message" type="text" placeholder="enter your message" minlength="10"></textarea>
+          </form>
+          <button class="popup__button" type="submit">Send</button>
+        </div>
+      </div>
+
     </div>
   </div>
-
+<script src="./scripts/js.js"></script>
 </body>
 </html>

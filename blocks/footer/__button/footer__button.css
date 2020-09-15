@@ -1,0 +1,13 @@
+.footer__button {
+  width: 180px;
+  height: 42px;
+  border-radius: 25px;
+  background-color: #000;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.footer__button:hover {
+  opacity: .5;
+}

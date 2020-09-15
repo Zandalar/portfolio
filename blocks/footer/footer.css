@@ -4,6 +4,7 @@
 @import url(./__title/footer__title.css);
 @import url(./__subtitle/footer__subtitle.css);
 @import url(./__text/footer__text.css);
+@import url(./__button/footer__button.css);
 
 .footer {
   width: 100%;
@@ -11,4 +12,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 115px 0 123px;
 }

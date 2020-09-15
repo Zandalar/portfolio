@@ -1,0 +1,15 @@
+@import url(./__button/popup__button.css);
+@import url(./__container/popup__container.css);
+@import url(./__form/popup__form.css);
+@import url(./__input/popup__input.css);
+
+.popup {
+  width: 30%;
+  display: flex;
+  visibility: visible;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #828282;
+}

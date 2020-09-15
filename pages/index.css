@@ -3,6 +3,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/_fixed/header_fixed.css);
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/home/home.css);
 @import url(../blocks/language/language.css);
@@ -12,3 +13,4 @@
 @import url(../blocks/skills/skills.css);
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/popup/popup.css);

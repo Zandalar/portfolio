@@ -1,4 +1,11 @@
 .header__menu-button {
-  background: none;
-  border: none;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #070707;
+}
+
+.header__menu-button:hover {
+  opacity: .3;
+  transition: opacity .2s;
 }
