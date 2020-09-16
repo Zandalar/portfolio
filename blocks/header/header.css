@@ -13,3 +13,9 @@
   background-color: #fff;
   z-index: 1;
 }
+
+@media all and (max-width: 600px) {
+  .header {
+    display: none;
+  }
+}

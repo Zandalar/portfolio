@@ -4,4 +4,20 @@
   object-position: top;
   object-fit: cover;
   padding-bottom: 45px;
+  position: relative;
+}
+
+.portfolio__card-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: .5;
+}
+
+@media (max-width: 600px) {
+  .portfolio__card-image {
+    height: 30vh;
+  }
 }

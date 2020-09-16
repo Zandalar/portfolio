@@ -5,3 +5,9 @@
   margin: 0;
   padding-top: 46px;
 }
+
+@media all and (max-width: 600px) {
+  .footer__text {
+    width: 90%;
+  }
+}

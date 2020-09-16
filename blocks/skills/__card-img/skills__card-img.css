@@ -1,0 +1,11 @@
+.skills__card-img {
+  width: 100px;
+  height: 100px;
+}
+
+@media all and (max-width: 600px) {
+  .skills__card-img {
+    width: 70px;
+    height: 70px;
+  }
+}

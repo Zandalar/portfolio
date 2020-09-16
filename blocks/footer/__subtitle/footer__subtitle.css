@@ -5,3 +5,9 @@
   margin: 0;
   padding-bottom: 30px;
 }
+
+@media all and (max-width: 600px) {
+  .footer__subtitle {
+    width: 90%;
+  }
+}

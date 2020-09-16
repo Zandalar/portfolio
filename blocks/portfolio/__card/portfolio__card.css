@@ -4,4 +4,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 100px 0;
+}
+
+@media all and (max-width: 600px) {
+  .portfolio__card {
+    padding: 30px 0;
+  }
 }

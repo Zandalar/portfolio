@@ -1,7 +1,14 @@
 .footer__menu {
-  width: 20%;
+  width: 285px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 85px;
+}
+
+@media all and (max-width: 600px) {
+  .footer__menu {
+    width: 230px;
+    padding-top: 35px;
+  }
 }

@@ -1,4 +1,12 @@
 .skills__title {
   font-size: 34px;
   line-height: 42px;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .skills__title {
+    font-size: 24px;
+    line-height: 30px;
+  }
 }

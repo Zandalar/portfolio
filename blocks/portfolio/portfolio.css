@@ -13,3 +13,9 @@
   background-color: #f6f6f6;
   padding: 113px 0 96px;
 }
+
+@media all and (max-width: 600px) {
+  .portfolio {
+    padding: 30px 0;
+  }
+}

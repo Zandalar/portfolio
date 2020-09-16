@@ -1,0 +1,7 @@
+.skills__star-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, min-content);
+  justify-content: center;
+  align-items: center;
+}

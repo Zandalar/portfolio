@@ -9,3 +9,10 @@
   opacity: .3;
   transition: opacity .2s;
 }
+
+@media all and (max-width: 700px) {
+  .header__menu-button {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

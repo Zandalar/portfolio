@@ -1,0 +1,16 @@
+.menu__button {
+  display: flex;
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media all and (min-width: 599px) {
+  .menu__button {
+    display: none;
+  }
+}

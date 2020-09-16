@@ -3,4 +3,12 @@
   justify-content: space-between;
   align-items: flex-end;
   margin: 40px 0 30px;
+  position: relative;
+}
+
+@media all and (max-width: 600px) {
+  .home__container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
