@@ -1,12 +1,5 @@
-@import url(./__title/about__title.css);
-@import url(./__text/about__text.css);
 @import url(./__container/about__container.css);
 
 .about {
-  width: 100%;
-  display: flex;
-  justify-content: center;
   background-color: #f6f6f6;
-  margin: 0 auto;
-  padding: 120px 0 110px;
 }

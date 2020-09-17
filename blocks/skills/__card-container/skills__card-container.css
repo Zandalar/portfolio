@@ -1,5 +1,5 @@
 .skills__card-container {
-  width: 60%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, 110px);
   justify-content: space-between;
@@ -10,8 +10,6 @@
 
 @media all and (max-width: 600px) {
   .skills__card-container {
-    width: 90%;
     justify-content: center;
-    column-gap: 0;
   }
 }

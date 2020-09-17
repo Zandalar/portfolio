@@ -1,0 +1,13 @@
+.home__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 40px 0 30px;
+}
+
+@media all and (max-width: 600px) {
+  .home__info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

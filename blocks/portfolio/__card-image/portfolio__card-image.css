@@ -3,7 +3,7 @@
   height: 60vh;
   object-position: top;
   object-fit: cover;
-  padding-bottom: 45px;
+  padding: 45px 0;
   position: relative;
 }
 

@@ -1,11 +1,12 @@
-.home__container {
+.footer__container {
   width: 60%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 @media all and (max-width: 600px) {
-  .home__container {
+  .footer__container {
     width: 90%;
   }
 }

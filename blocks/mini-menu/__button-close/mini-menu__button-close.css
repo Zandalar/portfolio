@@ -1,0 +1,21 @@
+.mini-menu__button-close {
+  background-image: url(../../../images/button__close_small.svg);
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 32px;
+  height: 32px;
+  border: none;
+  padding: 0;
+  outline: none;
+}
+
+.mini-menu__button-close:hover {
+  opacity: .6;
+  cursor: pointer;
+  transform: rotate(180deg);
+  transition: all .3s ease;
+}

@@ -1,0 +1,18 @@
+@import url(./__container/mini-menu__container.css);
+@import url(./__item/mini-menu__item.css);
+@import url(./__link/mini-menu__link.css);
+@import url(./__navigation/mini-menu__navigation.css);
+@import url(./__table/mini-menu__table.css);
+@import url(./__button-close/mini-menu__button-close.css);
+@import url(./__language/mini-menu__language.css);
+@import url(./__language/_eng/mini-menu__language_eng.css);
+@import url(./__language/_ru/mini-menu__language_ru.css);
+@import url(./__separator/mini-menu__separator.css);
+
+.mini-menu {
+  display: flex;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .5s ease;
+}

@@ -1,5 +1,5 @@
 .popup__container {
-  width: 30%;
+  width: 40%;
   position: fixed;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -23,6 +23,6 @@
 
 @media all and (max-width: 600px) {
   .popup__container {
-    width: 90%;
+    width: 80%;
   }
 }
