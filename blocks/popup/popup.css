@@ -4,6 +4,7 @@
 @import url(./__input/popup__input.css);
 @import url(./__textarea/popup__textarea.css);
 @import url(./__button-close/popup__button-close.css);
+@import url(./__label/popup__label.css);
 
 .popup {
   display: flex;

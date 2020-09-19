@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +22,7 @@
         </nav>
       </header>
 
-      <section class="section home" id="section-home">
+      <section class="home section" id="section-home">
         <div class="home__container">
           <div class="home__info">
             <div class="home__name">
@@ -34,28 +34,33 @@
               <p class="text">29 years old, Moscow</p>
             </div>
             <div class="language">
-              <button class="language_ru">RU</button>
-              <p class="language__separator">|</p>
-              <button class="language_eng">ENG</button>
+              <a class="language_ru" href="./pages/ru.html">RU</a>
+              <p class="language__separator"> | </p>
+              <a class="language_eng" href="./index.html">ENG</a>
             </div>
           </div>
           <img class="home__photo" src="./images/home__photo.jpg" alt="author's photo">
         </div>
       </section>
 
-      <section class="section about" id="section-about">
+      <section class="about section" id="section-about">
+        <div class="about__overlay"></div>
         <div class="about__container">
           <h2 class="title">About me</h2>
-          <p class="text">Hi, I'm Vitaliy – Web-developer from Moscow. I'm interested in web-development and everything connected with it.</p>
-          <p class="text">I'm studying at courses "Web-developer" in Yandex.Praktikum.</p>
-          <p class="text">Ready to implement excellent projects with wonderful people.</p>
+          <p class="text">Hi, I'm Vitaliy from Moscow. In the past, I worked as a surveyor engineer, built houses,
+            roads, shopping centers, and more. Before my eyes, complex projects turned into living structures.</p>
+          <p class="text">Now I am studying to be a front-end developer on the Yandex.Praktikum platform.
+            As an engineer, my experience has helped me deal with complex projects,
+            spot weaknesses and pay attention to the little things.</p>
+          <p class="text">I really like to engage in Web-development, I want to evolve in the sphere of IT,
+            find a team of people who are close in spirit and take part in the development of cool projects!</p>
         </div>
       </section>
 
-      <section class="section skills" id="section-skills">
+      <section class="skills section" id="section-skills">
         <div class="skills__container">
           <h2 class="title">Skills</h2>
-          <p class="text">I work in such programs as</p>
+          <p class="text">In my work, I use next programs and software</p>
           <div class="skills__card-container">
             <div class="skills__card">
               <img class="skills__card-img" src="./images/html.svg" alt="html">
@@ -91,7 +96,7 @@
               </div>
             </div>
             <div class="skills__card">
-              <img class="skills__card-img" src="./images/webpack.svg" alt="JavaScript">
+              <img class="skills__card-img" src="./images/webpack.svg" alt="Webpack">
               <h3 class="skills__card-title">Webpack</h3>
               <div class="skills__star-container">
                 <img class="skills__card-img_star" src="./images/star__active.svg" alt="star">
@@ -102,7 +107,7 @@
               </div>
             </div>
             <div class="skills__card">
-              <img class="skills__card-img" src="./images/react.svg" alt="JavaScript">
+              <img class="skills__card-img" src="./images/react.svg" alt="React">
               <h3 class="skills__card-title">React</h3>
               <div class="skills__star-container">
                 <img class="skills__card-img_star" src="./images/star__active.svg" alt="star">
@@ -127,21 +132,21 @@
         </div>
       </section>
 
-      <section class="section portfolio" id="section-portfolio">
+      <section class="portfolio section" id="section-portfolio">
         <div class="portfolio__container">
           <h2 class="title">Portfolio</h2>
           <div class="portfolio__card">
-            <img class="portfolio__card-image" src="./images/mesto.png" alt="mesto">
-            <a class="text" href="https://zandalar.github.io/mesto/" target="_blank">Mesto</a>
+            <a href="https://zandalar.github.io/mesto/" target="_blank"><img class="portfolio__card-image" src="./images/mesto.png" alt="mesto"></a>
+            <a class="portfolio__link" href="https://zandalar.github.io/mesto/" target="_blank">Mesto</a>
           </div>
           <div class="portfolio__card">
-            <img class="portfolio__card-image" src="./images/russian_travel.png" alt="russian-travel">
-            <a class="text" href="https://zandalar.github.io/russian-travel/" target="_blank">Russian-travel</a>
+            <a href="https://zandalar.github.io/russian-travel/" target="_blank"><img class="portfolio__card-image" src="./images/russian_travel.png" alt="russian-travel"></a>
+            <a class="portfolio__link" href="https://zandalar.github.io/russian-travel/" target="_blank">Russian-travel</a>
           </div>
         </div>
       </section>
 
-      <footer class="section footer" id="section-footer">
+      <footer class="footer section" id="section-footer">
         <div class="footer__container">
         <h2 class="title">Contacts</h2>
         <p class="text">Want to know more or just chat? You are welcome!</p>
@@ -154,16 +159,16 @@
             <li class="footer__menu-item"><a href="https://www.instagram.com/ge0dezist/" target="_blank"><img class="footer__icon" src="./images/instagram.svg" alt="Instagram"></a></li>
           </ul>
         </nav>
-        <p class="footer__text">&copy; 2020 Vitaliy Masich. Design by Denis Novik</p>
+        <p class="footer__text">&copy; 2020 Vitaliy Masich</p>
         </div>
       </footer>
 
       <div class="popup">
         <div class="popup__container">
           <form class="popup__form" novalidate>
-            <label for="popup__email">Please, write your e-mail</label>
+            <label class="popup__label" for="popup__email">Please, write your e-mail</label>
             <input class="popup__input" id="popup__email" type="email" placeholder="enter your e-mail" minlength="3">
-            <label for="popup__message">Please, write me your message</label>
+            <label class="popup__label" for="popup__message">Please, write me your message</label>
             <textarea class="popup__textarea" id="popup__message" type="text" placeholder="enter your message" minlength="10"></textarea>
           </form>
           <button class="popup__button" type="submit">Send</button>
@@ -184,9 +189,9 @@
             </ul>
           </nav>
           <div class="mini-menu__language">
-            <button class="mini-menu__language_ru">RU</button>
-            <p class="mini-menu__separator">|</p>
-            <button class="mini-menu__language_eng">ENG</button>
+            <a class="mini-menu__language_ru" href="./pages/ru.html">RU</a>
+            <p class="mini-menu__separator"> | </p>
+            <a class="mini-menu__language_eng" href="./index.html">ENG</a>
           </div>
         </div>
       </div>

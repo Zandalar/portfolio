@@ -1,6 +1,7 @@
 @import url(./__card/portfolio__card.css);
 @import url(./__card-image/portfolio__card-image.css);
 @import url(./__container/portfolio__container.css);
+@import url(./__link/portfolio__link.css);
 
 .portfolio {
   background-color: #f6f6f6;

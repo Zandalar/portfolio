@@ -8,7 +8,5 @@
 @media all and (max-width: 600px) {
   .skills__container {
     width: 90%;
-    /*justify-content: center;*/
-    /*column-gap: 0;*/
   }
 }

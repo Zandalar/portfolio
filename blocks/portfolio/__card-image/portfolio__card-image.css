@@ -3,16 +3,9 @@
   height: 60vh;
   object-position: top;
   object-fit: cover;
-  padding: 45px 0;
-  position: relative;
 }
 
-.portfolio__card-image::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #000;
+.portfolio__card-image:hover {
   opacity: .5;
 }
 

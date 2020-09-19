@@ -3,8 +3,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  transform: translate(40px, -100px) rotate(90deg);
+  transform: translate(40px, -100px) rotate(-90deg);
   margin: 0;
-  padding: 0;
   align-self: center;
 }
