@@ -1,3 +1,5 @@
+@import url(./__letters/text__letters.css);
+
 .text {
   font-family: Gilroy-Medium, Arial, Helvetica, sans-serif;
   font-size: 18px;

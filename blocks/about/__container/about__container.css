@@ -1,14 +1,7 @@
 .about__container {
   max-width: 485px;
-  display: grid;
-  grid-template-rows: repeat(auto-fit, 1fr);
-  row-gap: 20px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-@media all and (max-width: 600px) {
-  .about__container {
-    max-width: 90%;
-  }
 }

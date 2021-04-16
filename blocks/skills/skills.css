@@ -1,7 +1,17 @@
-@import url(./__container/skills__container.css);
 @import url(./__card/skills__card.css);
 @import url(./__card-img/skills__card-img.css);
 @import url(./__card-img/_star/skills__card-img_star.css);
 @import url(./__card-title/skills__card-title.css);
 @import url(./__star-container/skills__star-container.css);
 @import url(./__card-container/skills__card-container.css);
+@import url(./__text/skills__text.css);
+@import url(./__title/skills__title.css);
+
+.skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 0 110px;
+}

@@ -3,14 +3,5 @@
   height: 60vh;
   object-position: top;
   object-fit: cover;
-}
-
-.portfolio__card-image:hover {
-  opacity: .5;
-}
-
-@media (max-width: 600px) {
-  .portfolio__card-image {
-    height: 30vh;
-  }
+  padding-bottom: 45px;
 }

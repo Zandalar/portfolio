@@ -2,11 +2,4 @@
   width: 60%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-@media all and (max-width: 600px) {
-  .portfolio__container {
-    width: 90%;
-  }
 }
